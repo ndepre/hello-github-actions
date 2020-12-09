@@ -1,10 +1,9 @@
-jobs :
-   build :
-     nom : l' action Hello world 
-    s'exécute : ubuntu-dernières 
-    étapes :
-      - utilise : actions / checkout @ v1 
-      - utilise : ./action-a 
-        avec :
-           MY_NAME : " Mona "
-
+jobs:
+  build:
+    name: Hello world action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+        with:
+          MY_NAME: "Mona"
