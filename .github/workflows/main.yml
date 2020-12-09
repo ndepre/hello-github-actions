@@ -1,5 +1,3 @@
-name : Un workflow pour mon fichier Hello World 
-sur : push
 jobs :
    build :
      nom : l' action Hello world 
