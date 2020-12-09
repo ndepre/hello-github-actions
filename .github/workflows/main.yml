@@ -7,3 +7,4 @@ jobs :
       - utilise : ./action-a 
         avec :
            MY_NAME : " Mona "
+
